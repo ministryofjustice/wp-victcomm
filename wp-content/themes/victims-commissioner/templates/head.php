@@ -22,4 +22,10 @@
 
 </script>
 <!-- Google Analytics end -->
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://localhost:8888/wp-victcomm/wp-content/themes/victims-commissioner/assets/css/old-ie.css">
+<![endif]-->
+
+
 </head>

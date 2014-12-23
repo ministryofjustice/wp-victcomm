@@ -1,0 +1,37 @@
+body {
+	width: 1170px;
+	padding: 0 15px;
+}
+
+.col-sm-6 {
+	width: 47%;
+	float: left;
+}
+
+.collapse {
+	display: block;
+	margin-bottom: 2em;
+	width: 96%;
+}
+
+.navbar-nav>li {
+	float: left;
+}
+
+.navbar-header .navbar-search {
+	position: relative;
+	width: 33%;
+	padding-bottom: 80px;
+	padding-top: 40px;
+}
+
+.form-inline .form-control {
+	width: 94%;
+	height: 32px;
+	padding: 4px 10px 0 10px;
+	font-size: .8em;
+}
+
+.row {
+	width: 100%;
+}
