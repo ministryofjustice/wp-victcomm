@@ -18,6 +18,10 @@ body {
 	float: left;
 }
 
+.navbar-default .navbar-toggle {
+	display: none;
+}
+
 .navbar-header .navbar-search {
 	position: relative;
 	width: 33%;

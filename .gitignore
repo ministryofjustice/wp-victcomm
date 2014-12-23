@@ -97,3 +97,7 @@ wp-content/mysql.sql
 *.asf
 *.wmv
 *.avi
+
+wp-content/themes/victims-commissioner/npm-debug.log
+
+wp-content/themes/victims-commissioner/npm-debug.log
