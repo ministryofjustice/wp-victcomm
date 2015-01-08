@@ -24,7 +24,8 @@
 <!-- Google Analytics end -->
 
 <!--[if lt IE 9]>
-<link rel="stylesheet" type="text/css" href="http://localhost:8888/wp-victcomm/wp-content/themes/victims-commissioner/assets/css/old-ie.css">
+<link rel="stylesheet" type="text/css" href="wp-content/themes/victims-commissioner/assets/css/old-ie.css">
+<script src="wp-content/themes/victims-commissioner/assets/js/html5shiv.min.js"></script>
 <![endif]-->
 
 

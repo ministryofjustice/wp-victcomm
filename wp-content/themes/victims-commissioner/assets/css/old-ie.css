@@ -1,10 +1,15 @@
-body {
-	width: 1170px;
-	padding: 0 15px;
+.container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
 }
 
 .col-sm-6 {
-	width: 47%;
+	width: 50%;
+	*+width: 46.8%;
 	float: left;
 }
 
@@ -25,8 +30,17 @@ body {
 .navbar-header .navbar-search {
 	position: relative;
 	width: 33%;
-	padding-bottom: 80px;
+	padding-bottom: 65px;
+	*+padding-bottom: 80px; /* To get around IE7's lack of box-sizing */
 	padding-top: 40px;
+}
+
+.navbar-header .navbar-search form {
+	width: 94%;
+}
+
+.navbar-header .navbar-search form input[type=submit] {
+	right: -4px;
 }
 
 .form-inline .form-control {
@@ -34,8 +48,21 @@ body {
 	height: 32px;
 	padding: 4px 10px 0 10px;
 	font-size: .8em;
+	margin-right: 10px;
 }
 
 .row {
 	width: 100%;
 }
+
+footer.content-info {
+	*+height: 70px;
+	*+padding-top: 110px;
+	*+margin-top: 20px;
+
+}
+
+.content-info #menu-footer-menu li.menu-justice-on-gov-uk {
+	border-right: 0;
+}
+

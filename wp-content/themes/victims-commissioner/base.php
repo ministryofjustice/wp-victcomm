@@ -1,7 +1,7 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php if (isset($post->post_name)) { body_class("slug-".$post->post_name); } ?>>
 
-  <!--[if lt IE 8]>
+  <!--[if lte IE 8]>
     <div class="alert alert-warning">
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
     </div>
