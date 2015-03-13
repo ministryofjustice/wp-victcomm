@@ -111,6 +111,13 @@ function custom_theme_options() {
 				'section' => 'homepage'
 			),
 			array(
+				'id' => 'homepage-lead-video',
+				'label' => 'Lead video',
+				'desc' => 'The video featured at the top of the homepage',
+				'type' => 'textarea-simple',
+				'section' => 'homepage'
+			),
+			array(
 				'id' => 'homepage-second-image',
 				'label' => 'Second image',
 				'desc' => 'The second image on the homepage',
