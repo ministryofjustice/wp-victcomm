@@ -17,7 +17,7 @@
 </div>
 <div class="row">
 	<div class="col-sm-6 home-actions-col">
-		<h1>How you can take action</h1>
+		<h1 class="no-top-margin">How you can take action</h1>
 		<?php
 		for ( $x = 1; $x <= 4; $x++ ) {
 			$action_target = ot_get_option( "homepage_cta" . $x . "_target" );
