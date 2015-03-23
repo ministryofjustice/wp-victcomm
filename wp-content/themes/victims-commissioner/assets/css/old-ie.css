@@ -66,3 +66,18 @@ footer.content-info {
 	border-right: 0;
 }
 
+.home-action-container {
+    width: 45.5%;
+    zoom: 1;
+    *display: inline;
+}
+
+.home-images-col img {
+    width: 48.4%;
+    margin: 0px 0px 10px 0px;
+}
+
+.home-images-col img:first-child {
+    margin: 0px 20px 10px 0;
+}
+

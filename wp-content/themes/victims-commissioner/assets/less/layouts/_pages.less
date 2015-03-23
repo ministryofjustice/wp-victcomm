@@ -1,5 +1,9 @@
 /* Home page */
-.home-actions-col,
+.home-actions-col {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
 .home-images-col {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -19,7 +23,14 @@
     background-color: @light-grey;
     padding: 20px 20px 20px 10px;
     margin: 10px 0;
-    display: table;
+    display: inline-block;
+    width: 100%;
+        @media (min-width: @screen-sm) {
+            width: 48.3%
+        }
+        @media (min-width: @screen-lg) {
+            width: 48.9%
+        }
     &:hover {
         background-color: @dark-grey;
     }
@@ -46,8 +57,26 @@
     }
 }
 
+.home-actions-col a {
+    margin-right: 20px; 
+        &:last-child {
+            margin-right: 0;
+        }
+}
+
 .home-images-col img {
     margin: 10px 0;
+    width: 100%;
+        @media (min-width: @screen-sm) {
+            width: 48.3%;
+            margin: 0px 20px 10px 0;
+        }
+        @media (min-width: @screen-lg) {
+            width: 48.9%;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
 }
 
 .home-news-col {

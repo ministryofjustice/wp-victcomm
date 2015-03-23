@@ -16,7 +16,7 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-sm-6 home-actions-col">
+	<div class="col-sm-12 home-actions-col">
 		<h1 class="no-top-margin">How you can take action</h1>
 		<?php
 		for ( $x = 1; $x <= 4; $x++ ) {
@@ -39,7 +39,7 @@
 		}
 		?>
 	</div>
-	<div class="col-sm-6 home-images-col">
+	<div class="col-sm-12 home-images-col">
 		<?php build_homepage_image( 'homepage-second-image' ); ?>
 		<?php build_homepage_image( 'homepage-third-image' ); ?>
 	</div>
