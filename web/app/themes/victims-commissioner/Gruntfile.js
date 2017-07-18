@@ -47,7 +47,7 @@ module.exports = function(grunt) {
           // To enable, set sourceMap to true and update sourceMapRootpath based on your install
           sourceMap: true,
           sourceMapFilename: 'assets/css/main.css.map',
-          sourceMapRootpath: '/victcomm/wp-content/themes/victims-commissioner/'
+          sourceMapRootpath: '/app/themes/victims-commissioner/'
         }
       },
       build: {
