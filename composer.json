@@ -52,7 +52,8 @@
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/fluid-video-embeds": "*",
     "wpackagist-plugin/social-polls-by-opinionstage": "*",
-    "wpackagist-plugin/visual-table-formatting-lite": "*"
+    "wpackagist-plugin/visual-table-formatting-lite": "*",
+    "wpackagist-plugin/option-tree": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
