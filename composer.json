@@ -51,7 +51,6 @@
     "ministryofjustice/wp-rewrite-media-to-s3": "^0.1.1",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/fluid-video-embeds": "*",
-    "wpackagist-plugin/social-polls-by-opinionstage": "*",
     "wpackagist-plugin/visual-table-formatting-lite": "*",
     "wpackagist-plugin/option-tree": "*"
   },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8da72cabe85177550b60ade2496311bf",
+    "content-hash": "c9f821c4d2d679a058050ffca7e4927c",
     "packages": [
         {
             "name": "composer/installers",
@@ -541,26 +541,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/option-tree/"
-        },
-        {
-            "name": "wpackagist-plugin/social-polls-by-opinionstage",
-            "version": "18.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/social-polls-by-opinionstage/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-polls-by-opinionstage.zip?timestamp=1499435033",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/social-polls-by-opinionstage/"
         },
         {
             "name": "wpackagist-plugin/visual-table-formatting-lite",
