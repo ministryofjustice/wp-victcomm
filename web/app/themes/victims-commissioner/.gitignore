@@ -1,6 +1,5 @@
 node_modules
 bower_components
-assets/vendor/*
 assets/css/main.css.map
 assets/css/*main*.css
 assets/js/*scripts*.js
