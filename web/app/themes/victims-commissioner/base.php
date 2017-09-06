@@ -12,6 +12,14 @@
     get_template_part('templates/header');
   ?>
 
+  <div class="container">
+    <div class="survey-banner survey-banner--moj">
+      <img src="<?= get_template_directory_uri() ?>/assets/img/coat-of-arms-white.png" class="coat-of-arms" alt="Royal coat of arms of the United Kingdom">
+      The Ministry of Justice is seeking victims’ views about the Victims’ Code.
+      <a href="https://www.smartsurvey.co.uk/s/3YTA7/" target="_blank">Click here to have your say<span class="glyphicon glyphicon-new-window"></span></a>
+    </div>
+  </div>
+
   <div class="wrap container" role="document">
     <div class="content row">
       <main class="main" role="main">

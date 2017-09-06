@@ -129,14 +129,14 @@ module.exports = function(grunt) {
           'assets/less/*.less',
           'assets/less/**/*.less'
         ],
-        tasks: ['less:dev', 'autoprefixer:dev']
+        tasks: ['less:build', 'autoprefixer:build', 'uglify', 'version']
       },
       js: {
         files: [
           jsFileList,
           '<%= jshint.all %>'
         ],
-        tasks: ['jshint', 'concat']
+        tasks: ['jshint', 'uglify', 'version']
       },
       livereload: {
         // Browser live reloading
