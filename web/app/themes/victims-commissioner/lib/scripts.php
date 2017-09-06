@@ -33,8 +33,8 @@ function roots_scripts() {
 			'jquery' => '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'
 		);
 	//}
-
-	wp_enqueue_style( 'roots_css', get_template_directory_uri() . $assets['css'], false, null );
+	
+	enqueue_versioned_style('roots_css', '/assets/css/main.min.css');
 
 	// jQueryUI theme
 	wp_enqueue_style( "jquery-ui-css", get_template_directory_uri() . "/assets/css/jquery-ui.min.css" );
