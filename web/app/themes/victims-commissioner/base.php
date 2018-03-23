@@ -12,12 +12,12 @@
     get_template_part('templates/header');
   ?>
 
-  <div class="container">
+  <?php /*<div class="container">
       <div class="survey-banner survey-banner--moj">
           The Victims’ Commissioner is seeking victims’ views about victim engagement in parole processes and the Victim Contact Scheme.
           <a href="https://www.smartsurvey.co.uk/s/VictimContactSchemeSurvey/" target="_blank">Click here to have your say<span class="glyphicon glyphicon-new-window"></span></a>
       </div>
-  </div>
+  </div> */ ?>
 
   <div class="wrap container" role="document">
     <div class="content row">
