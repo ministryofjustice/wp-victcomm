@@ -12,7 +12,7 @@
 	<div class="col-sm-6 home-intro-col">
 		<h1 class="no-top-margin">Welcome</h1>
 		<?php echo ot_get_option( 'homepage-intro' ); ?>
-		<a href="#">Learn more ></a>
+		<a href="/about">Learn more ></a>
 	</div>
 </div>
 <div class="row">
