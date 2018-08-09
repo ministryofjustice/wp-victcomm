@@ -12,6 +12,9 @@
     get_template_part('templates/header');
   ?>
 
+<?php
+// Survey banner
+/*
   <div class="container">
       <div class="survey-banner survey-banner--moj">
 <!--          The Victims’ Commissioner is seeking victims’ views about victim engagement in parole processes and the Victim Contact Scheme.-->
@@ -25,6 +28,7 @@
           <a href="https://bit.ly/2KDbuWg" target="_blank">Have your say in our victims’ survey<span class="glyphicon glyphicon-new-window"></span></a>
       </div>
   </div>
+*/ ?>
 
   <div class="wrap container" role="document">
     <div class="content row">
