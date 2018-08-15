@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "a8af53bf3861764ac793eec897b5c35e",
@@ -555,7 +555,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/visual-table-formatting-lite.zip?timestamp=1481133681",
+                "url": "https://downloads.wordpress.org/plugin/visual-table-formatting-lite.zip?timestamp=1514227634",
                 "reference": null,
                 "shasum": null
             },

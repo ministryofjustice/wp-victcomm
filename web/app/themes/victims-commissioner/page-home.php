@@ -1,11 +1,11 @@
 <div class="row">
 	<div class="col-sm-6 home-lead-col">
 		<?php if( ot_get_option( 'homepage-lead-image', true) != 1 ) :
-		   build_homepage_image( 'homepage-lead-image' );  
+		   build_homepage_image( 'homepage-lead-image' );
 		 else : ?>
 		  	<div class="videoWrapper">
 				<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
-				<?php echo ot_get_option( 'homepage-lead-video' ); ?> 
+				<?php echo ot_get_option( 'homepage-lead-video' ); ?>
 			</div>
 		<?php endif ?>
 	</div>
