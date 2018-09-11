@@ -69,7 +69,7 @@
 	</div>
 	<div class="col-sm-6 home-media-col">
 		<h2>Follow Us</h2>
-		<a class="twitter-timeline"  href="https://twitter.com/HNewlove" data-widget-id="522671864489848834" width="1000">Tweets by @HNewlove</a>
+		<a class="twitter-timeline"  href="https://twitter.com/VictimsComm" data-widget-id="522671864489848834" width="1000">Tweets by @VictimsComm</a>
 		<script>!function (d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
                 if (!d.getElementById(id)) {
